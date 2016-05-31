@@ -1,0 +1,16 @@
+{
+  "name": "marky-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "marky-markdown node_modules/sorted-linked-list/README.md > README.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "marky-markdown": "^7.0.1",
+    "sorted-linked-list": "^1.0.1"
+  }
+}
